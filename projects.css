@@ -4,13 +4,16 @@ body {
     font-family: "acumin pro", sans-serif;
     background-color: #0f0f0f;
     color: #d4d4d4;
+    height: 100vh;
+
 }
 .grid-container {
     display: grid;
+    width: 85vw;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
-    margin-left: 100px;
-    margin-right: 100px;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
     text-shadow: 0 0 6rem rgba(0, 0, 0, 1);
     
   }
@@ -29,13 +32,9 @@ body {
   }
   
   .grid-item:hover {
-    background: linear-gradient(135deg, rgba(255,255,255,0.07), rgba(255,255,255,0.25));
-    background: rgba(255, 255, 255, 0.1);
     transform: scale(1.015);
     border: 1px solid rgba(255, 255, 255, 0.25);
-    box-shadow: inset 0 0 1rem rgba(0, 0, 0, 0.05),
-      inset -3rem 1px 3rem rgba(255, 255, 255, 0.05),
-      inset 2rem -1px 3rem rgba(255, 255, 255, 0.03);
+  
   }
   
   .grid-item img{
@@ -47,30 +46,54 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 500px;
-    object-fit: cover; /* Ensures the video covers the container */
-    opacity: 0; /* Initially hide the video */
-    transition: opacity 0.6s ease; /* Smooth transition on hover */
+    width: 200px;
+    object-fit: cover; 
+    opacity: 0; 
+    transition: opacity 0.6s ease; 
 }
 
 .grid-item:hover .gp {
-    opacity: 1; /* Show the video on hover */
-    width: 1000px;
-    top: -10px;
-    left:0px;
+    opacity: 1; 
+    width: 700px;
+    margin-left: -2vw;
     border-radius: 2rem;
   }
 .grid-item:hover .plasma {
-    opacity: 1; /* Show the video on hover */
-    width: 900px;
-    top: -10px;
-    left: -300px;
+    opacity: 1;
+    width: 650px;
+    margin-left: -2.5vw;
     border-radius: 2rem;
   }
 .grid-item:hover .harry {
-    opacity: 1; /* Show the video on hover */
-    width: 900px;
+    opacity: 1; 
+    width: 650px;
     top: -10px;
-    left: -300px;
+    left: -2vw;
     border-radius: 2rem;
   }
+
+  .nav-projects{
+    color: #d4d4d4;
+    font-size: 30px;
+  }
+
+@media (max-width:1200px)
+{
+  .grid-item{
+  width: 70vw;
+  margin: auto;
+}
+.grid-item img{
+  width: 50vw;
+}
+  .grid-container{
+    grid-template-columns: repeat(1, 1fr);
+    width: 70vw;
+    margin: none;
+    pointer-events: none;
+  }
+.foot{
+  display: none;
+}
+  
+}

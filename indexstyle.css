@@ -9,33 +9,8 @@ body {
 @import url("https://fonts.googleapis.com/css2?family=Gabriela&display=swap");
 
 
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(2,40vw);
-  gap: 1.5rem;
-  justify-content: center;
-  align-items: center;
-  text-shadow: 0 0 6rem rgba(0, 0, 0, 1);
-}
 
-.grid-item {
-  padding: 3rem 2rem;
-  border-radius: 1rem;
-  background: rgb(51, 51, 51);
-  background: linear-gradient(156deg, rgba(51, 51, 51, 1) 0%, rgba(40, 40, 40, 1) 25%, rgba(23, 23, 23, 1) 50%, rgba(20, 20, 20, 1) 75%, rgba(17, 17, 17, 1) 100%);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  text-align: center;
-  transition: all 0.2s ease-in-out;
-  box-shadow: inset 0 0 1rem rgba(0, 0, 0, 0.05);
-  cursor: pointer;
-}
-
-.grid-item:hover {
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.25));
-  background: rgba(255, 255, 255, 0.1);
-  transform: scale(1.025);
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  box-shadow: inset 0 0 1rem rgba(0, 0, 0, 0.05),
-    inset -3rem 1px 3rem rgba(255, 255, 255, 0.05),
-    inset 2rem -1px 3rem rgba(255, 255, 255, 0.03);
+.nav-home{
+  color: #d4d4d4;
+  font-size: 30px;
 }

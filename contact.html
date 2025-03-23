@@ -23,21 +23,47 @@
     </div>
 
     <div class="contact">
-        <div class="p">GET IN TOUCH</div>
-    </div>
+        <div class="get-in-touch">
+            <div class="p">GET IN <span>TOUCH </span></div> <hr>
+            <div class="grid-item"><img src="./assets/light/github.svg" alt=""> <span>@sumit-mall</span></div>
+            <div class="grid-item"><img src="./assets/light/linkedin.svg" alt=""><span>@sumitkumarmall</span></div>
+            <div class="grid-item"><img src="./assets/light/instagram.svg" alt=""><span>@__sumeeeet__</span></div>
 
+        </div>
+        <form class="contact-form">
+            <h1>Let's Work <span>Together !</span></h1>
+            <input type="text" id="fname" placeholder="Name *" name="fname" required><br>
+            <input type="text" id="fname" placeholder="Email *" name="fname" required><br>
+            <input type="text" id="fname" placeholder="Your Subject *" name="fname" required><br>
+            <input type="text" id="fname" placeholder="Your Message *" name="fname" required><br>
+            <button type="submit" id="submit">Send Message</button>
+        </form>
+    </div>
     <div id="footer-placeholder">
 
     </div>
 </body>
 <script>
 
-    
-$(function () {
-            $("#nav-placeholder").load("nav.html");
-            $("#footer-placeholder").load("footer.html");
+
+    $(function () {
+        $("#nav-placeholder").load("nav.html");
+        $("#footer-placeholder").load("footer.html");
+    });
+
+    $(document).ready(function () {
+
+        $("body").css("display", "none");
+        $("body").fadeIn(2000);
+        // to fade out before redirect
+        $('a').click(function (e) {
+            redirect = $(this).attr('href');
+            e.preventDefault();
+            $('body').fadeOut(1000, function () {
+                document.location.href = redirect
+            });
         });
-        
+    })
 </script>
 
 </html>

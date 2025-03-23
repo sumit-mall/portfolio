@@ -6,5 +6,118 @@ body {
 }
 
 .contact {
+    display: flex;
+    width: 85vw;
+    height: 40vh;
     color: #d4d4d4;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact .p {
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.contact .p span {
+    color: #656565;
+}
+
+
+.grid-item {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    width: 10vw;
+    gap: 15px;
+}
+
+
+.get-in-touch {
+    display: flex;
+    font-size: 13px;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 100px;
+}
+
+.get-in-touch hr{
+    width: 5vw;
+}
+
+.contact-form {
+    font-weight: 200;
+    border: none;
+    border-radius: 2rem;
+    width: 30vw;
+    height: 45vh;
+    background: rgb(51, 51, 51);
+    background: linear-gradient(130deg, rgba(51, 51, 51, 1) 0%, rgba(40, 40, 40, 1) 25%, rgba(23, 23, 23, 1) 50%, rgba(20, 20, 20, 1) 75%, rgba(17, 17, 17, 1) 100%);
+    padding: 20px 30px 30px 30px;
+    margin-left: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-form input {
+    background: rgb(51, 51, 51);
+    background: linear-gradient(130deg, rgba(51, 51, 51, 1) 0%, rgba(40, 40, 40, 1) 25%, rgba(33, 33, 33, 1) 50%, rgba(30, 30, 30, 1) 75%, rgba(25, 25, 25, 1) 100%);
+    width: 28vw;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.contact-form span {
+    color: #6073e2;
+}
+
+.contact-form button {
+    background-color: rgb(51, 51, 51);
+    border: none;
+    color: #d4d4d4;
+    margin-left: 5px;
+    width: 29vw;
+    height: 5vh;
+    border-radius: 10px;
+}
+
+.nav-contact{
+    color: #d4d4d4;
+    font-size: 30px;
+  }
+
+@media (max-width:1000px) {
+
+    .contact-form input .grid-item {
+        width: 90vw;
+    }
+    h1{
+        font-size: 25px;
+    }
+    .contact-form {
+        margin: 0;
+        padding: auto;
+        width: 90vw;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .contact-form input {
+        width: 60vw;
+    }
+
+    .grid-item h1{
+        font-size: 10px;
+        width: 90vw;
+    }
+    .get-in-touch {
+        display: none;
+    }
 }
