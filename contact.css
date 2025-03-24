@@ -43,7 +43,12 @@ body {
     margin-top: 100px;
 }
 
-.get-in-touch hr{
+.get-in-touch a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.get-in-touch hr {
     width: 5vw;
 }
 
@@ -87,19 +92,25 @@ body {
     border-radius: 10px;
 }
 
-.nav-contact{
+.nav-contact {
     color: #d4d4d4;
     font-size: 30px;
-  }
+}
+
+.foot{
+    position: absolute;
+}
 
 @media (max-width:1000px) {
 
     .contact-form input .grid-item {
         width: 90vw;
     }
-    h1{
+
+    h1 {
         font-size: 25px;
     }
+
     .contact-form {
         margin: 0;
         padding: auto;
@@ -113,10 +124,11 @@ body {
         width: 60vw;
     }
 
-    .grid-item h1{
+    .grid-item h1 {
         font-size: 10px;
         width: 90vw;
     }
+
     .get-in-touch {
         display: none;
     }

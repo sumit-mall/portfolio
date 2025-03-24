@@ -77,6 +77,10 @@ body {
     font-size: 30px;
   }
 
+  .foot{
+    position: absolute;
+  }
+
 @media (max-width:1200px)
 {
   .grid-item{

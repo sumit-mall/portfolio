@@ -16,53 +16,73 @@
 </head>
 <style>
     .nav {
-    font-family: "acumin pro", sans-serif;
-    color: #656565;
-    display: flex;
-    justify-content: left;
-    gap: 4vw;
-    overflow: hidden;
-    align-items: center;
-    list-style-type: none;
-    font-size: 20px;
-    font-style: normal;
-}
+        font-family: "acumin pro", sans-serif;
+        color: #656565;
+        display: flex;
+        justify-content: center;
+        gap: 4vw;
+        overflow: hidden;
+        align-items: center;
+        list-style-type: none;
+        font-size: 20px;
+        font-style: normal;
+        margin: 0;
+        padding: 15px;
+    }
 
-.nav :active {
-    color: #d4d4d4;
-}
+    .nav :active {
+        color: #d4d4d4;
+    }
 
-.nav-logo img {
-    font-weight: 600;
-    color: #dddddd;
-    width: 7vw;
-    margin-left: 160px;
-}
+    .nav-logo img {
+        font-weight: 600;
+        color: #dddddd;
+        width: 140px;
+    }
 
-.nav a {
-    text-decoration: none;
-    color: inherit;
-}
+    .nav a {
+        text-decoration: none;
+        color: inherit;
+    }
 
-.nav-home {
-    margin-left: 10vw;
-}
+    .nav-home {
+        margin-left: 10vw;
+    }
 
-.nav-resume {
-    background-color: #323232;
-    border-radius: 20px;
-    padding: 18px;
-    font-size: 15px;
-    color: #d4d4d4;
-    font-weight: 700;
-    margin-left: 10vw;
-}
+    .nav-resume {
+        background-color: #323232;
+        border-radius: 20px;
+        padding: 18px;
+        font-size: 15px;
+        color: #d4d4d4;
+        font-weight: 700;
+        margin-left: 10vw;
+    }
 
-.nav-item.active {
-    color: #d4d4d4;
-  background-color: #4CAF50;
-}
+
+    @media (max-width:1250px) {
+        
+        .nav-logo img{
+            display: none;
+        }
+        .nav-resume {
+            display: none;
+        }
+
+        .nav {
+            gap: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .nav-home {
+            margin: 0;
+        }
+    }
 </style>
+
 <body>
     <navbar>
         <ul class="nav">
