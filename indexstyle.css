@@ -9,10 +9,243 @@ body {
 @import url("https://fonts.googleapis.com/css2?family=Gabriela&display=swap");
 
 
-.foot{
+.foot {
   position: absolute;
 }
-.nav-home{
+
+.nav-home {
   color: #d4d4d4;
   font-size: 30px;
+}
+
+.grid-1 {
+  margin-top: 20px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 2vw;
+  width: 80vw;
+  display: grid;
+  grid-template-columns: repeat(3, 0fr);
+}
+
+.intro {
+  width: 40vw;
+  height: 30vh;
+  background: rgb(51, 51, 51);
+  background: linear-gradient(130deg, rgba(51, 51, 51, 1) 0%, rgba(40, 40, 40, 1) 25%, rgba(23, 23, 23, 1) 50%, rgba(20, 20, 20, 1) 75%, rgba(17, 17, 17, 1) 100%);
+  border: none;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.intro h2{
+  color: #656565 ;
+  margin-top: 35px;
+  font-size: 25px;
+}
+
+.intro span{
+  font-size: 60px;
+  color: #d4d4d4;
+  font-family: "Aguafina Script", sans-serif;
+}
+.intro img {
+  width: 60px;
+  position: absolute;
+  top: 400px;
+  left: 850px;
+}
+
+.sign {
+  text-align: center;
+  margin-top: 30px;
+  width: 18vw;
+  height: 20vh;
+  background: rgb(51, 51, 51);
+  background: linear-gradient(130deg, rgba(51, 51, 51, 1) 0%, rgba(40, 40, 40, 1) 25%, rgba(23, 23, 23, 1) 50%, rgba(20, 20, 20, 1) 75%, rgba(17, 17, 17, 1) 100%);
+  border: none;
+  border-radius: 25px;
+}
+
+.sign .next {
+  width: 60px;
+  position: absolute;
+  top: 370px;
+  left: 1250px;
+}
+
+.sign .photo{
+  margin-top: 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+}
+.showcase {
+  text-align: center;
+  margin-top: 30px;
+  width: 18vw;
+  height: 20vh;
+  background: rgb(51, 51, 51);
+  background: linear-gradient(130deg, rgba(51, 51, 51, 1) 0%, rgba(40, 40, 40, 1) 25%, rgba(23, 23, 23, 1) 50%, rgba(20, 20, 20, 1) 75%, rgba(17, 17, 17, 1) 100%);
+  border: none;
+  border-radius: 25px;
+}
+
+.showcase img {
+  width: 60px;
+  position: absolute;
+  top: 370px;
+  left: 1620px;
+}
+
+.showcase h2{
+  color: #d4d4d4 ;
+  margin-top: 45px;
+  font-size: 20px;
+}
+
+.showcase span{
+  font-size: 30px;
+  color: #e26060;
+  font-family: "Aguafina Script", sans-serif;
+}
+
+.blog {
+  width: 17vw;
+  height: 20vh;
+  color: #d4d4d4;
+  text-align: center;
+  background: rgb(51, 51, 51);
+  background: linear-gradient(130deg, rgba(51, 51, 51, 1) 0%, rgba(40, 40, 40, 1) 25%, rgba(23, 23, 23, 1) 50%, rgba(20, 20, 20, 1) 75%, rgba(17, 17, 17, 1) 100%);
+  border: none;
+  border-radius: 25px;
+}
+
+.blog .proj-logo{
+  width: 60px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+a{
+  text-decoration: none;
+}
+.blog h5{
+  margin: 12px;
+  color: #d4d4d4;
+}
+.blog h3{
+  color: #656565;
+  margin: 5px;
+}
+.services {
+  text-align: center;
+  margin-left: -22vw;
+  width: 40vw;
+  height: 30vh;
+  background: rgb(51, 51, 51);
+  background: linear-gradient(130deg, rgba(51, 51, 51, 1) 0%, rgba(40, 40, 40, 1) 25%, rgba(23, 23, 23, 1) 50%, rgba(20, 20, 20, 1) 75%, rgba(17, 17, 17, 1) 100%);
+  border: none;
+  border-radius: 25px;
+}
+
+.services h2{
+  margin-top: 50px;
+  color: #d4d4d4;
+}
+
+.services span{
+  color: #6073e2;
+}
+
+.images img
+{
+  flex-direction: row;
+  width: 50px;
+  margin-top: 40px;
+  margin-left: 40px;
+ }
+.profile {
+  width: 17vw;
+  height: 20vh;
+  background: rgb(51, 51, 51);
+  background: linear-gradient(130deg, rgba(51, 51, 51, 1) 0%, rgba(40, 40, 40, 1) 25%, rgba(23, 23, 23, 1) 50%, rgba(20, 20, 20, 1) 75%, rgba(17, 17, 17, 1) 100%);
+  border: none;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.profile .git{
+  width: 60px;
+  margin-top: 70px;
+}
+.profile .linkedin{
+  width: 60px;
+  margin-left: 30px;
+}
+
+.blog .next {
+  width: 60px;
+  position: absolute;
+  top: 680px;
+  left: 430px;
+}
+
+.services .next {
+  width: 60px;
+  position: absolute;
+  top: 720px;
+  left: 1200px;
+}
+
+.profile .next {
+  width: 60px;
+  position: absolute;
+  top: 700px;
+  left: 1620px;
+}
+
+@media (max-width:1900px){
+    .next{
+      display: none;
+    }
+}
+@media screen and (max-width:1300px){
+  .grid-1{
+    display: grid;
+    grid-template-columns: repeat(1, 0fr);
+    gap: 2vw;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .intro{
+    display: none;
+  }
+  .services{
+    display: none;
+  }
+  .sign{
+    width: 80vw;
+  }
+  .showcase{
+    margin-top: 50px;
+    width: 80vw;
+  }
+  .blog{
+    margin-top: 50px;
+    width: 80vw;
+  }
+  .profile{
+    margin-top: 50px;
+    width: 80vw;
+  }
+
+  
+  #footer-placeholder{
+    position: relative;
+    margin-top: 150px;
+    bottom: 0;
+  }
 }

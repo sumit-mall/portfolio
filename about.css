@@ -8,7 +8,7 @@ body {
 .about {
     display: flex;
     margin-left: 100px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .about-me .span-me{
@@ -16,6 +16,7 @@ body {
 }
 .about img{
     width: 200px;
+    height: 200px;
     margin-top: 80px;
     border-radius: 2rem;
 }
