@@ -1,8 +1,11 @@
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: "acumin pro", sans-serif;
   background-color: #0f0f0f;
+  width: 100vw;
+  height: 100vh;
 }
 
 
@@ -41,12 +44,12 @@ body {
 
 .intro h2{
   color: #656565 ;
-  margin-top: 35px;
-  font-size: 25px;
+  margin-top: 85px;
+  font-size: 20px;
 }
 
 .intro span{
-  font-size: 60px;
+  font-size: 40px;
   color: #d4d4d4;
   font-family: "Aguafina Script", sans-serif;
 }
