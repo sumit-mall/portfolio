@@ -30,6 +30,7 @@ body {
   width: 80vw;
   display: grid;
   grid-template-columns: repeat(3, 0fr);
+
 }
 
 .intro {
@@ -44,7 +45,7 @@ body {
 
 .intro h2{
   color: #656565 ;
-  margin-top: 85px;
+  margin-top: 9vh;
   font-size: 20px;
 }
 
@@ -62,7 +63,7 @@ body {
 
 .sign {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 3.1vh;
   width: 18vw;
   height: 20vh;
   background: rgb(51, 51, 51);
@@ -79,14 +80,14 @@ body {
 }
 
 .sign .photo{
-  margin-top: 20px;
-  width: 150px;
-  height: 150px;
+  margin-top: 2.1vh;
+  width: 7.8vw;
+  height: 15.6vh;
   border-radius: 20px;
 }
 .showcase {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 3.13vh;
   width: 18vw;
   height: 20vh;
   background: rgb(51, 51, 51);
@@ -98,13 +99,13 @@ body {
 .showcase img {
   width: 60px;
   position: absolute;
-  top: 370px;
-  left: 1620px;
+  top: 38.66vh;
+  left: 84.37vw;
 }
 
 .showcase h2{
   color: #d4d4d4 ;
-  margin-top: 45px;
+  margin-top: 4.6vh;
   font-size: 20px;
 }
 
@@ -116,7 +117,7 @@ body {
 
 .blog {
   width: 17vw;
-  height: 20vh;
+  height: 30vh;
   color: #d4d4d4;
   text-align: center;
   background: rgb(51, 51, 51);
@@ -127,7 +128,7 @@ body {
 
 .blog .proj-logo{
   width: 60px;
-  margin-top: 30px;
+  margin-top: 6.3vh;
   margin-left: auto;
   margin-right: auto;
 }
@@ -154,7 +155,7 @@ a{
 }
 
 .services h2{
-  margin-top: 50px;
+  margin-top: 5.22vh;
   color: #d4d4d4;
 }
 
@@ -166,8 +167,8 @@ a{
 {
   flex-direction: row;
   width: 50px;
-  margin-top: 40px;
-  margin-left: 40px;
+  margin-top: 4.27vh;
+  margin-left: 2.08vw;
  }
 .profile {
   width: 17vw;
@@ -177,36 +178,37 @@ a{
   border: none;
   border-radius: 25px;
   text-align: center;
+  margin-bottom: 10vh;
 }
 
 .profile .git{
   width: 60px;
-  margin-top: 70px;
+  margin-top: 7.31vh;
 }
 .profile .linkedin{
   width: 60px;
-  margin-left: 30px;
+  margin-left: 1.56vw;
 }
 
 .blog .next {
   width: 60px;
   position: absolute;
-  top: 680px;
-  left: 430px;
+  top: 71.05vh;
+  left: 22.4vw;
 }
 
 .services .next {
   width: 60px;
   position: absolute;
-  top: 720px;
-  left: 1200px;
+  top: 75.23vh;
+  left: 62.5vw;
 }
 
 .profile .next {
   width: 60px;
   position: absolute;
-  top: 700px;
-  left: 1620px;
+  top: 68.14vh;
+  left: 84.375vw;
 }
 
 @media (max-width:1900px){

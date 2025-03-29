@@ -81,11 +81,12 @@ body {
     position: absolute;
   }
 
-@media (max-width:1200px)
+@media (max-width:1500px)
 {
   .grid-item{
   width: 70vw;
   margin: auto;
+  margin-top: 100px;
 }
 .grid-item img{
   width: 50vw;

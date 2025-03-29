@@ -103,27 +103,34 @@ body {
     position: absolute;
 }
 
-@media (max-width:1000px) {
+@media (max-width:1500px) {
 
     .contact-form input .grid-item {
         width: 90vw;
     }
-
+    
     h1 {
         font-size: 25px;
+        padding: 30px;
     }
-
+    
     .contact-form {
         margin: 0;
-        padding: auto;
         width: 90vw;
+        height: 90vh;
         align-items: center;
         justify-content: center;
         text-align: center;
     }
-
+    
     .contact-form input {
         width: 60vw;
+        height: 7vh;
+    }
+
+    .contact-form button {
+        width: 30vw;
+        padding: 30px;
     }
 
     .grid-item h1 {
@@ -132,6 +139,10 @@ body {
     }
 
     .get-in-touch {
+        display: none;
+    }
+
+    .foot{
         display: none;
     }
 }
